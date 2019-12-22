@@ -1,6 +1,6 @@
 buildscript {
 	ext {
-		springBootVersion = '2.1.0.RC1'
+		springBootVersion = '2.1.0.RELEASE'
 	}
 	repositories {
 		mavenCentral()
@@ -13,14 +13,14 @@ buildscript {
 }
 
 plugins {
-	id "io.spring.dependency-management" version "1.0.8.RELEASE"
+	id "io.spring.dependency-management" version "1.0.5.RELEASE"
 }
 
 
 apply plugin: 'java'
 apply plugin: 'eclipse'
 
-group = 'com.genekuo.microservices.api'
+group = 'demo.microservices.api'
 version = '1.0.0-SNAPSHOT'
 sourceCompatibility = 1.8
 

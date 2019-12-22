@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aepa.iml" filepath="$PROJECT_DIR$/.idea/modules/aepa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/aepa.api.iml" filepath="$PROJECT_DIR$/.idea/modules/api/aepa.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/aepa.api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api/aepa.api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/aepa.api.test.iml" filepath="$PROJECT_DIR$/.idea/modules/api/aepa.api.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-composite-service/aepa.product-composite-service.iml" filepath="$PROJECT_DIR$/.idea/modules/product-composite-service/aepa.product-composite-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-composite-service/aepa.product-composite-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/product-composite-service/aepa.product-composite-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-composite-service/aepa.product-composite-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/product-composite-service/aepa.product-composite-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-service/aepa.product-service.iml" filepath="$PROJECT_DIR$/.idea/modules/product-service/aepa.product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-service/aepa.product-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/product-service/aepa.product-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-service/aepa.product-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/product-service/aepa.product-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/recommendation-service/aepa.recommendation-service.iml" filepath="$PROJECT_DIR$/.idea/modules/recommendation-service/aepa.recommendation-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/recommendation-service/aepa.recommendation-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/recommendation-service/aepa.recommendation-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/recommendation-service/aepa.recommendation-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/recommendation-service/aepa.recommendation-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/review-service/aepa.review-service.iml" filepath="$PROJECT_DIR$/.idea/modules/review-service/aepa.review-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/review-service/aepa.review-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/review-service/aepa.review-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/review-service/aepa.review-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/review-service/aepa.review-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/aepa.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/aepa.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/aepa.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/aepa.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/aepa.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/aepa.util.test.iml" />
+    </modules>
+  </component>
+</project>

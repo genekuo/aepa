@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="aepa.api.main" target="1.8" />
+      <module name="aepa.api.test" target="1.8" />
+      <module name="aepa.customer.main" target="1.8" />
+      <module name="aepa.customer.test" target="1.8" />
+      <module name="aepa.microservices.product-service.main" target="1.8" />
+      <module name="aepa.microservices.product-service.test" target="1.8" />
+      <module name="aepa.order.main" target="1.8" />
+      <module name="aepa.order.test" target="1.8" />
+      <module name="aepa.product-composite-service.main" target="1.8" />
+      <module name="aepa.product-composite-service.test" target="1.8" />
+      <module name="aepa.product-service.main" target="1.8" />
+      <module name="aepa.product-service.test" target="1.8" />
+      <module name="aepa.product.main" target="1.8" />
+      <module name="aepa.product.test" target="1.8" />
+      <module name="aepa.recommendation-service.main" target="1.8" />
+      <module name="aepa.recommendation-service.test" target="1.8" />
+      <module name="aepa.review-service.main" target="1.8" />
+      <module name="aepa.review-service.test" target="1.8" />
+      <module name="aepa.store.main" target="1.8" />
+      <module name="aepa.store.test" target="1.8" />
+      <module name="aepa.util.main" target="1.8" />
+      <module name="aepa.util.test" target="1.8" />
+      <module name="api.main" target="1.8" />
+      <module name="api.test" target="1.8" />
+      <module name="product-composite-service.main" target="1.8" />
+      <module name="product-composite-service.test" target="1.8" />
+      <module name="product-service.main" target="1.8" />
+      <module name="product-service.test" target="1.8" />
+      <module name="recommendation-service.main" target="1.8" />
+      <module name="recommendation-service.test" target="1.8" />
+      <module name="review-service.main" target="1.8" />
+      <module name="review-service.test" target="1.8" />
+      <module name="util.main" target="1.8" />
+      <module name="util.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
