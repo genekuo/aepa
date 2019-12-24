@@ -28,8 +28,8 @@ import static demo.microservices.api.event.Event.Type.DELETE;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment=RANDOM_PORT, properties = {
+	"eureka.client.enabled=false",
     "spring.datasource.url=jdbc:h2:mem:review-db"})
-
 public class ReviewServiceApplicationTests {
 
 	@Autowired
