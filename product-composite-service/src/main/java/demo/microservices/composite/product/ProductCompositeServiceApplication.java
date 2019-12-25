@@ -3,20 +3,16 @@ package demo.microservices.composite.product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.actuate.health.*;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.reactive.function.client.WebClient;
-import demo.microservices.composite.product.services.ProductCompositeIntegration;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.service.ApiInfo;
 import springfox.documentation.service.Contact;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2WebFlux;
-
-import java.util.LinkedHashMap;
 
 import static java.util.Collections.emptyList;
 import static org.springframework.web.bind.annotation.RequestMethod.*;
@@ -65,24 +61,6 @@ public class ProductCompositeServiceApplication {
                     emptyList()
                 ));
     }
-
-	@Autowired
-	HealthAggregator healthAggregator;
-
-	@Autowired
-	ProductCompositeIntegration integration;
-
-	@Bean
-	ReactiveHealthIndicator coreServices() {
-
-		ReactiveHealthIndicatorRegistry registry = new DefaultReactiveHealthIndicatorRegistry(new LinkedHashMap<>());
-
-		registry.register("product", () -> integration.getProductHealth());
-		registry.register("recommendation", () -> integration.getRecommendationHealth());
-		registry.register("review", () -> integration.getReviewHealth());
-
-		return new CompositeReactiveHealthIndicator(healthAggregator, registry);
-	}
 
 	@Bean
 	@LoadBalanced
