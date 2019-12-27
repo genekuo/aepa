@@ -13,7 +13,7 @@ import demo.microservices.core.product.persistence.ProductEntity;
 import demo.microservices.core.product.persistence.ProductRepository;
 
 @RunWith(SpringRunner.class)
-@DataMongoTest
+@DataMongoTest(properties = {"spring.cloud.config.enabled=false"})
 public class PersistenceTests {
 
     @Autowired
