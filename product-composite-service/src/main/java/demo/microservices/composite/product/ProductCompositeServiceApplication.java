@@ -44,7 +44,7 @@ public class ProductCompositeServiceApplication {
 
 		return new Docket(SWAGGER_2)
 			.select()
-			.apis(basePackage("se.magnus.microservices.composite.product"))
+			.apis(basePackage("demo.microservices.composite.product"))
 			.paths(PathSelectors.any())
 			.build()
 				.globalResponseMessage(POST, emptyList())
